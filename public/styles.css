@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("https://wallpapercave.com/wp/wp2467148.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://www.transparenttextures.com/patterns/60-lines.png") , linear-gradient(to right bottom, #dbd3ea, white); */
+}
+
+.container {
+    font-family: "Mclaren", sans-serif;
+    margin: -10% auto;
+    padding: 80px 80px;
+    text-align: center;
+    /* background: cadetblue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container h1 {
+    font-weight: 200;
+    font-size: 40px;
+
+    background-image: linear-gradient(315deg, #05e8ba -10%, #087ee1 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+  }
+
+  .container h3 {
+    color: darkorange;
+    font-weight: 200;
+  }
+  
+  form {
+    padding: 40px 40px;
+    position: relative;
+    /* background: brown; */
+  }
+  form input {
+    border: 2px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+  }
+  
+  form button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: purple;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+  }
+  
